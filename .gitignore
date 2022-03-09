@@ -1,0 +1,7 @@
+# ignore fichier .docx
+*.docx
+# ignore fichier .tmp
+*.tmp
+# ignore repertoire Documentation
+/Documentation
+
