@@ -1,0 +1,60 @@
+@font-face {
+    font-family: "vikingSimple";
+    src: url(./ressource/font/VikingNormal/VikingNormal.eot) format("opentype");
+    src: url(./ressource/font/VikingNormal/VikingNormal.otf) format("opentype");
+    src: url(./ressource/font/VikingNormal/VikingNormal.woff) format("woff");
+    src: url(./ressource/font/VikingNormal/VikingNormal.ttf) format('truetype');
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F4EAD2;
+    background-image: url(./ressource/images/celtitBG.svg);
+    background-size: cover;
+   
+}
+
+
+
+
+/* ******HEADER********* */
+
+.banniere{
+    background-image: url(./ressource/images/bannierelarge.jpg);
+    background-size: 100% ;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: calc(100vw/4);
+   
+
+} 
+
+
+h1 {    
+    font-size: calc(1em + 4vw);
+    text-align: center;
+    padding-top: 8%;  
+    color: white; 
+    -webkit-text-stroke: 1px rgba(100, 99, 99, 0.897) ; 
+    
+    text-shadow: 6px 4px 3px rgba(0,0,0,0.57);
+    font-family: "vikingSimple", Arial, Helvetica, sans-serif;
+    
+} 
+
+@media screen and  (min-width: 920px) { 
+
+    .banniere {
+        background-size: 920px;
+        background-position: top;
+    }
+
+    h1 {
+        font-size: 60px;
+        padding-top: 65px;
+    }
+ }
+
