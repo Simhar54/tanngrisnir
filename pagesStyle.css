@@ -65,11 +65,29 @@ main {
 
 h2 {
     padding-bottom: 20px;
+    text-align: center;
 }
 
 .carouselImg {
     width: 80%;
     height: auto;
+}
+
+ul {
+    list-style: none;
+}
+li {
+    padding: 10px;
+    font-size: 1.5em;
+    
+}
+
+ul a {
+    text-decoration: none;
+    color: black;
+}
+ul a:hover {
+    color: #354928;
 }
 
 
