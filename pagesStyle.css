@@ -73,20 +73,20 @@ h2 {
     height: auto;
 }
 
-ul {
+main ul {
     list-style: none;
 }
-li {
+main li {
     padding: 10px;
     font-size: 1.5em;
     
 }
 
-ul a {
+main ul a {
     text-decoration: none;
     color: black;
 }
-ul a:hover {
+main ul a:hover {
     color: #354928;
 }
 
