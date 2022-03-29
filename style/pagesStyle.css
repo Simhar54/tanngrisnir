@@ -50,6 +50,9 @@ h1,
 h2 {
   font-family: "vikingSimple", Arial, Helvetica, sans-serif;
 }
+header nav {
+  background-color: #8d9d82;
+}
 
 /* ****** MAIN ****** */
 main {
