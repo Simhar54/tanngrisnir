@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Nos projets</title>
+    <title>Nos activités</title>
     <!-- Description Meta Tag -->
     <meta
       name="description"
@@ -12,7 +12,7 @@
     Saulnes."
     />
     <!-- Facebook / Open Graph Meta Tags -->
-    <meta name="og:title" content="Nos projets" />
+    <meta name="og:title" content="Nos activités" />
     <meta name="og:type" content="website" />
     <meta name="og:url" content="https://simhar54.github.io/tanngrisnir/" />
     <meta name="og:image" content="ressource\images\bannierelarge.jpg" />
@@ -25,7 +25,7 @@
     <!-- END Open Graph Meta Tag -->
 
     <!-- Twitter Meta Tags -->
-    <meta name="twitter:title" content="Nos projets" />
+    <meta name="twitter:title" content="Nos activités" />
     <meta
       name="twitter:description"
       content="Association de reconstitution historique viking basée dans la commune de
@@ -51,75 +51,32 @@
   </head>
 
   <body>
-    <header>
-      <nav class="navbar navbar-expand-lg navbar-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="../index.html">
-            <img
-              src="../ressource/icon/iconTanngrisnir.svg"
-              alt="Logo"
-              width="80px"
-              height="auto"
-            />
-          </a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link" href="../index.html">Accueil</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="evenements.html">Evènements</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="representation.html"
-                  >Représentation</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contacts.html">Contacts</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-      <div class="banniere">
-        <h1>Tanngrisnir</h1>
-      </div>
-    </header>
-
+    <?php include_once '../componant/header.html' ?>
     <main>
       <div class="container">
         <div class="row align-items-center justify-content-center">
           <div class="col col-12 col-lg-6 my-5">
-            <h2>Nos projets</h2>
+            <h2>Représentation et prestation</h2>
             <article>
               <p>
-                Ils sont multiples, nous souhaitons développer une communauté
-                riche et variée.
+                Bien qu’ils soient réalisés avec autant de sérieux et de
+                minutie, l’immersion doit rester totale dans les deux cas.
+              </p>
+              <p>Mais ces deux termes ne sont pas à confondre.</p>
+              <p>
+                Les représentations sont des événements, publics ou non, auquels
+                l’association participera : Camp off, Thing, évènement au
+                village…
               </p>
               <p>
-                Elargir nos compétences en artisanat, acquérir un niveau digne
-                des plus grands guerriers vikings pour la section combat,
-                partager nos connaissances sous différentes formes (organisation
-                d’une fête viking à Saulnes, travailler avec les écoles
-                locales…).
+                Une prestation implique un contrat. Elle est rémunérée, ce qui
+                fera vivre l’association et permettra d’investir dans du
+                matériel et dans le développement de Járnfjall.
               </p>
               <p>
-                Mais notre plus grand projet reste la construction d’un village
-                pour une immersion intégrale dans le monde scandinave, son nom
-                est
-                <strong>Jàrnfjall</strong> .
+                <strong>
+                  Un engagement pour une prestation doit être respecté !
+                </strong>
               </p>
             </article>
           </div>
@@ -132,21 +89,21 @@
               <div class="carousel-inner">
                 <div class="carousel-item active">
                   <img
-                    src="../ressource/images/nosProjets1.jpg"
+                    src="../ressource/images/representation1.jpg"
                     class="d-block w-100 carouselImg"
                     alt="Bois"
                   />
                 </div>
                 <div class="carousel-item">
                   <img
-                    src="../ressource/images/nosProjets2.jpg"
+                    src="../ressource/images/representation2.jpg"
                     class="d-block w-100 carouselImg"
                     alt="Plan"
                   />
                 </div>
                 <div class="carousel-item">
                   <img
-                    src="../ressource/images/nosProjets3.jpg"
+                    src="../ressource/images/representation3.jpg"
                     class="d-block w-100 carouselImg"
                     alt="Bucherons"
                   />
@@ -182,49 +139,8 @@
       </div>
     </main>
 
-    <footer class="container-fluid">
-      <div
-        class="row align-items-center justify-content-lg-center justify-content-md-center"
-      >
-        <div class="col footerBox">
-          <div id="icons">
-            <a
-              href="https://www.facebook.com/pages/category/Community/Tanngrisnir-460285391188158/"
-              aria-label="Facebook"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="footerLien"
-              ><i class="fa fa-facebook"></i
-            ></a>
-            <a
-              href="https://www.instagram.com/tanngrisnir_ofjarnfjall/?hl=fr"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="Instagram"
-              class="footerLien"
-              ><i class="fa fa-instagram"></i
-            ></a>
-          </div>
-        </div>
-        <div class="col footerBox">
-          <div id="contactFooter">
-            <h4>Contactez nous :</h4>
-            <a href="mailto:tanngrisnir.asso@gmail.com"
-              >tanngrisnir. asso@gmail.com</a
-            >
-          </div>
-        </div>
-        <div class="col footerBox">
-          <span>
-            Association à but non lucratif <br />
-            basée sur la loi de 1901
-          </span>
-        </div>
-      </div>
-      <div id="copyright">
-        <span>© arnaudSimoncelli(); 2022</span>
-      </div>
-    </footer>
+    <?php include_once "../componant/footer.html" ; ?>
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"

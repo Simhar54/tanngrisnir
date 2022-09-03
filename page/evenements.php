@@ -50,52 +50,7 @@
     <!-- END Stylesheets -->
   </head>
   <body>
-    <header>
-      <nav class="navbar navbar-expand-lg navbar-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="../index.html">
-            <img
-              src="../ressource/icon/iconTanngrisnir.svg"
-              alt="Logo"
-              width="80px"
-              height="auto"
-            />
-          </a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link" href="../index.html">Accueil</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="evenements.html">Evènements</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="representation.html"
-                  >Représentation</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contacts.html">Contacts</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-      <div class="banniere">
-        <h1>Tanngrisnir</h1>
-      </div>
-    </header>
+    <?php include_once '../componant/header.html' ?>
     <main>
       <div class="container">
         <div class="row align-items-center justify-content-center">
@@ -142,49 +97,9 @@
         </div>
       </div>
     </main>
-    <footer class="container-fluid">
-      <div
-        class="row align-items-center justify-content-lg-center justify-content-md-center"
-      >
-        <div class="col footerBox">
-          <div id="icons">
-            <a
-              href="https://www.facebook.com/pages/category/Community/Tanngrisnir-460285391188158/"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="Facebook"
-              class="footerLien"
-              ><i class="fa fa-facebook"></i
-            ></a>
-            <a
-              href="https://www.instagram.com/tanngrisnir_ofjarnfjall/?hl=fr"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="Instagram"
-              class="footerLien"
-              ><i class="fa fa-instagram"></i
-            ></a>
-          </div>
-        </div>
-        <div class="col footerBox">
-          <div id="contactFooter">
-            <h4>Contactez nous :</h4>
-            <a href="mailto:tanngrisnir.asso@gmail.com"
-              >tanngrisnir. asso@gmail.com</a
-            >
-          </div>
-        </div>
-        <div class="col footerBox">
-          <span>
-            Association à but non lucratif <br />
-            basée sur la loi de 1901
-          </span>
-        </div>
-      </div>
-      <div id="copyright">
-        <span>© arnaudSimoncelli(); 2022</span>
-      </div>
-    </footer>
+  
+    <?php include_once "../componant/footer.html" ; ?>
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
